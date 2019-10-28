@@ -3,13 +3,11 @@ import {StyleSheet} from 'react-native';
 import {createAppContainer} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
 
-import AlbumScreen from './src/screens/AlbumScreen';
+import AlbumList from './src/screens/AlbumList';
 
 const App = createStackNavigator(
   {
-    Home: {
-      screen: AlbumScreen,
-    },
+    screen: AlbumList,
   },
   {
     headerLayoutPreset: 'center',
